@@ -27,10 +27,10 @@ def get_previous_role(number: int):
 
 
 roles = {
-    10: 'VIP',
-    25: 'Senior VIP',
-    50: 'Elite VIP',
-    100: 'God VIP'
+    25: 'VIP',
+    50: 'Senior VIP',
+    100: 'Elite VIP',
+    500: 'God VIP'
 }
 
 roles_list = ['VIP', 'Senior VIP', 'Elite VIP', 'God VIP']
