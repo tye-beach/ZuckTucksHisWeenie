@@ -28,7 +28,7 @@ class Roles:
             if user_invite[0].id == author.id:
                 role = discord.utils.get(data.server.roles, name=get_role(user_invite[1]))
                 if role is None:
-                    await self.bot.say('{}\nYou have {} invites!\nYou need 10 invite to become VIP!'
+                    await self.bot.say('{}\nYou have {} invites!\nYou need 25 invite to become VIP!'
                                        .format(ctx.message.author.mention, user_invite[1]))
                     has_rank = True
                     continue
@@ -45,7 +45,7 @@ class Roles:
                                                  next_rank))
                 has_rank = True
         if not has_rank:
-            msg = await self.bot.say('<@{}>\nYou have no invites!\nYou need 10 invite to be VIP!'
+            msg = await self.bot.say('<@{}>\nYou have no invites!\nYou need 25 invite to be VIP!'
                                      .format(ctx.message.author.id))
 
     @commands.command(pass_context=True)
