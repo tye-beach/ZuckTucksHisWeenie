@@ -45,7 +45,7 @@ class Roles:
                                                  next_rank))
                 has_rank = True
         if not has_rank:
-            msg = await self.bot.say('<@{}>\nYou have no invites!\nYou need 25 invite to be VIP!'
+            msg = await self.bot.say('<@{}>\nYou have no invites!\nYou need 25 invites to be VIP!'
                                      .format(ctx.message.author.id))
 
     @commands.command(pass_context=True)
