@@ -1,1 +1,1 @@
-# Aventuretrade-discordbot
+# AventusTrade-discordbot
