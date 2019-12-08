@@ -6,6 +6,8 @@ from discord.ext import commands
 import utils.data as data
 import utils.roles
 
+print Tye Beach
+
 description = '''Aventus Bot'''
 
 modules = {'cogs.roles_management', 'cogs.secret_channel', 'cogs.roles_config', 'cogs.countdown_cog',
