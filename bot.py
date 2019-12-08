@@ -43,4 +43,4 @@ async def on_ready():
 
 
 # Test bot
-bot.run(os.environ['NjUzMjc2NjU5OTQzNzM1Mzcx.Xe0qBQ.Xs1P3qqyXP9HuyF1AoI6G3m_lNk'])
+bot.run('NjUzMjc2NjU5OTQzNzM1Mzcx.Xe0qBQ.Xs1P3qqyXP9HuyF1AoI6G3m_lNk')
