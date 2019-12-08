@@ -20,7 +20,7 @@ async def on_ready():
 
     print(bot.user.name)
     print(bot.user.id)
-    data.server = bot.get_server('652939652507893760')
+    data.server = bot.get_server('653276659943735371')
     members = data.server.members
     online_members = list(filter(lambda x: not x.status == discord.Status.offline, members))
     await bot.change_presence(
@@ -43,4 +43,4 @@ async def on_ready():
 
 
 # Test bot
-bot.run(os.environ['Discord_Bot_Key'])
+bot.run(os.environ['NjUzMjc2NjU5OTQzNzM1Mzcx.Xe0qBQ.Xs1P3qqyXP9HuyF1AoI6G3m_lNk'])
