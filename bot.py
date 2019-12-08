@@ -43,4 +43,4 @@ async def on_ready():
 
 
 # Test bot
-bot.run(os.environ['DISCORD_BOT_KEY'])
+bot.run(os.environ['NjUyOTM5NjUyNTA3ODkzNzYw.XexKJA.I91AZ7fhhCp_Wd6mzSrrfBzFqt8'])
