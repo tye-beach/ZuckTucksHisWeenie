@@ -44,4 +44,4 @@ async def on_ready():
 
 
 # Test bot
-bot.run('Discord_Bot_Key')
+bot.run(os.environ['DISCORD_BOT_KEY'])
