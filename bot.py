@@ -6,7 +6,7 @@ from discord.ext import commands
 import utils.data as data
 import utils.roles
 
-print Tye BeacH
+print 'Tye BeacH'
 
 description = '''Aventus Bot'''
 
